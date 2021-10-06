@@ -4,7 +4,7 @@ h1{
     color: #025152;
     margin:0;
     font-family: "Alegreya", serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
     text-align: center;
 }
@@ -25,24 +25,24 @@ body{
 
 .section-1 .above-title{
     color: #46484c;
-    font-family: "Slabo 27px", serif;
-    font-size: 20px;
+    font-family: "Slabo 16px", serif;
+    font-size: 16px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .section-1 .promotional-text-1{
     color: #8b8b8bcc;
-    font-family: "Slabo 20px", serif;
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
     margin-bottom: 0px;
     text-align: center;
 }
 
 .section-1 .promotional-text-2{
     color: #8b8b8bcc;
-    font-family: "Slabo 20px", serif;
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
     margin-bottom: 25px;
     margin-top: 5px;
     text-align: center;
@@ -50,30 +50,44 @@ body{
 
 .section-1 .form-email{
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    height: 55px;
 }
 
 #email{
     border: 1px solid #b6b6b6;
-    padding: 15px 40px;
-    width: 60%;
+    padding: 15px 20px;
+    width: 15%;
     max-width: 250px;
+    /* height: 25px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-try{
+    background-color: #025157;
+    color: #fff;
+    /* border: 24px bisque; */
+    border-color: 10;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 16px 20px;
+    margin-left: -10px;
+    /* height: 25px;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 #imgGetMatcha{
     text-align: center;
 }
 
-.btn-try{
-    background-color: #025157;
-    color: #fff;
-    border: #025157;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 17px 40px;
-    margin-left: -10px;
-}
+
 
 .header{
     margin-top: 40px;
@@ -110,7 +124,7 @@ body{
 }
 
 .header .navbar .nav-item{
-    color: #67b54b;
+    color: #025157;
     font-weight: 400;
     background-color: transparent;
     margin-right: 10px;
@@ -125,6 +139,8 @@ body{
 .header .actions button{
     border-radius: 5px;
     color: white;
+    font-weight: 300;
+    font-size: 16px;
     background-color: #67b54b;
     padding-left: 14px;
     padding-right: 14px;
@@ -138,6 +154,7 @@ body{
     text-decoration: none;
     background-color: transparent;
     font-weight: 300;
+    margin-right: 10px;
 }
 
 .main{
