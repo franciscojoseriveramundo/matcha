@@ -1,6 +1,12 @@
+
+
 h1{
     color: #025152;
-    
+    margin:0;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
 }
 
 body{
@@ -8,20 +14,53 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+.section-1{
+    margin-top: 140px;
+}
+
 .above-title{
     color: #46484c;
 
 }
 
-.promotional-text{
+.section-1 .above-title{
+    color: #46484c;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-1 .promotional-text-1{
     color: #8b8b8bcc;
+    font-family: "Slabo 20px", serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.section-1 .promotional-text-2{
+    color: #8b8b8bcc;
+    font-family: "Slabo 20px", serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.section-1 .form-email{
+    text-align: center;
 }
 
 #email{
     border: 1px solid #b6b6b6;
-    padding: 6px 20px;
+    padding: 15px 40px;
     width: 60%;
     max-width: 250px;
+}
+
+#imgGetMatcha{
+    text-align: center;
 }
 
 .btn-try{
@@ -32,6 +71,76 @@ body{
     border-bottom-right-radius: 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 7px 20px;
+    padding: 17px 40px;
     margin-left: -10px;
 }
+
+.header{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+}
+
+.header li{
+    display: inline;
+}
+
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header .logo{
+    width: 15%;
+    text-align: left;
+    
+}
+
+.header .navbar{
+    width: 70%;
+    text-align: center;
+    
+}
+
+.header .navbar ul{
+    padding-left: 0;
+    
+}
+
+.header .navbar .nav-item{
+    color: #67b54b;
+    font-weight: 400;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.header .actions{
+    width: 15%;
+    text-align: right;
+    
+}
+
+.header .actions button{
+    border-radius: 5px;
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+}
+
+.header .actions a{
+    color: #67b54b;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 300;
+}
+
+.main{
+    margin-top: 140px;
+}
+
