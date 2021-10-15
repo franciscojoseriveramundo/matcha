@@ -313,3 +313,89 @@ p {
 }
 */
 
+/*Empiezan los medias querys*/
+@media (max-width: 425px) {
+  .actions,
+  .navbar{
+    display: none;
+  }
+
+  .header{
+    padding: 15px;
+    z-index: 1;
+    margin:0;
+  }
+
+  .main{
+    margin-top: 130px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+  .main .banner > img {
+    width: 100%;
+  }
+
+  .intro {
+    margin: 0;
+  }
+
+  .promo{
+    display: grid;
+    max-width: 100%;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .explanatory-video > video{
+    width: 100%;
+    padding: 5px;
+  }
+
+  .publish h3{
+    
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    line-height: 1.5;
+
+  }
+
+  .publish > p {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  #start-publishing{
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .publish .intro {
+    font-size: 14px;
+    
+  }
+  
+  
+
+  .features {
+    grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+    padding-left: 0;
+    padding-right: 0;
+    height: unset;
+    display: grid;
+  }
+
+  .feature-image{
+    display: none;
+  }
+
+  .signup-form {
+    height: 55px;
+    text-align: center;
+  }
+
+}
