@@ -1,0 +1,104 @@
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135359;
+  font-weight: 900;
+}
+
+.blog {
+  background-color: transparent;
+  max-width: unset Im !important;
+  padding: 5% 20%;
+}
+.blog .col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.blog .process-list {
+  margin: 40px 0 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process-list .process > .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  align-items: center;
+}
+.blog .process-list .process > .process-icon > img {
+  line-height: 100%;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog button {
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+  background-color: #025157;
+  color: #ffffff;
+  border: 0;
+}
+.blog .card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  flex-shrink: 0;
+  width: 100%;
+}
+.blog .card-text {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 1.5em;
+  min-height: 6em;
+}
+.blog .card-text .read-more > a {
+  text-decoration: underline;
+}
+.blog .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.blog .metadata > .category {
+  color: #67b54b;
+}
+.blog .metadata > .strong {
+  font-weight: bolder;
+}
+.blog .author > img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.blog .author > p {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=output.css.map */

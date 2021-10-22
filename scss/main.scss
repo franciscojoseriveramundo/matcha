@@ -1,0 +1,132 @@
+@use 'global' as *;
+
+.blog{
+    background-color: $transparent;
+    max-width: unset Im !important;
+    padding: 5% 20%;
+
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
+    .title{
+        @extend %base-title;
+    }
+
+    .process-list{
+        margin: 40px 0 36px;
+
+        .process{
+            margin-bottom: 25px;
+
+            & > div{
+                & > h3{
+                    color: $dark-green-title;
+                    margin-bottom: 0;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+                & > p{
+                    color: $dark-green-text;
+                    margin:0;
+                }
+
+                
+            }
+
+            & > .process-icon{
+                width: $weigh-img-icon;
+                height: $heigh-img-icon;
+                margin-right: 10px;
+                align-items: center;
+
+                & > img{
+                    line-height: 100%;
+                }
+            }
+
+            & > div > h3 {
+                color: #025157;
+                margin-bottom: 0;
+                font-size: 30px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    button{
+        height: auto;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+        background-color: $dark-green-title;
+        color: $white;
+        border: 0;
+    }
+
+    
+
+    .card-img-top{
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        flex-shrink: 0;
+        width: 100%;
+    }
+
+    .card-text{
+        color: $gray;
+        font-size: 18px;
+        line-height: 1.5em;
+        min-height: 6em;
+
+        .read-more > a{
+            text-decoration: underline;
+        }
+    }
+
+    .card-title{
+        font-size: 24px;
+        color: $gray;
+        margin-bottom: .75rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .metadata{
+        & > .category{
+            color: $light-green;
+        }
+
+        & > .strong{
+            font-weight: bolder;
+        }
+    }
+
+    .author{
+
+        & > img{
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+        }
+
+        & > p{
+
+            margin-left: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            color: $gray;
+            margin-top: 15px;
+        }
+    }
+}
+
